@@ -1,5 +1,9 @@
+# Java autobuilt by VS Code Java Extension
+.gradle/
+.settings/
+
 # VS Code
-.history
+.history/
 
 # Compiled class file
 *.class
