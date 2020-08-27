@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric-thread",
+  "version": "${version}",
+
+  "name": "Fabric Thread",
+  "description": "A Fabric Mod similar to Multiverse for managing multiple worlds in one server.",
+  "authors": [
+    "Jesse Looney"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Impartiall/fabric-thread"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.impartiall.fabric_thread.FabricThread"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
