@@ -1,4 +1,7 @@
 # Java autobuilt by VS Code Java Extension
+bin/
+.classpath
+.project
 .gradle/
 .settings/
 
